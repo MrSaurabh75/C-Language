@@ -56,8 +56,8 @@
 
     // #include<stdio.h>
     // int main(){
-        int a;
-        int b;
+        // int a;
+        // int b;
         // a.-->
         // printf("Enter 1 if sunday else enter 0  : \n");
         // scanf("%d",&a);
