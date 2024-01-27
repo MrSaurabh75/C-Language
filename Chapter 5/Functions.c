@@ -5,11 +5,28 @@
 // Syntax 3 : Function Call;
 
 // Example :
-#include<stdio.h>
-void printHello();
-int main(){
-    printHello();
-}
-void printHello(){
-    printf("Hello world!");
-}
+// #include<stdio.h>
+// void printHello();
+// int main(){
+//     printHello();
+// }
+// void printHello(){
+//     printf("Hello world!");
+// }
+
+// Passing Arguments : Function can tae value called as parameter and returns some value called as return value.
+// #include<stdio.h>
+// int sum(int a,int b);
+// int main(){
+//     int x,y;
+//     printf("Enter 1st number : ");
+//     scanf("%d",&x);
+//     printf("Enter 2nd number : ");
+//     scanf("%d",&y);
+//     printf("Sum of %d and %d is %d",x,y,sum(x,y));
+
+// }
+// int sum(int a,int b){
+//     return a+b;
+// }
+
