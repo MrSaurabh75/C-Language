@@ -146,3 +146,62 @@
 //     }
 //     return  f*factorial(f-1);
 // }
+
+// Practice Qs 32
+// Write a funnction that converts celcius into fahernheit
+// #include<stdio.h>
+// float cToF(int a);
+// int main(){
+//     int c;
+//     float f;
+//     printf("Enter a Temprature in Celcius : ");
+//     scanf("%d",&c);
+//     f = cToF(c);
+//     printf("Temprature in celcius %d and in fharenhite is %f",c,f);
+// }
+// float cToF(int a){
+//     return a*(9/5)+32;
+// }
+
+// Practice Qs 33
+// Write a function to calculate a percentage of a student from marks in science, math & sanskrit.
+// #include<stdio.h>
+// float Percentage(int m1,int m2 ,int m3);
+// int main(){
+//     int a,b,c;
+//     printf("Enter Marks of Science : ");
+//     scanf("%d",&a);
+//     printf("Enter Marks of Maths : ");
+//     scanf("%d",&b);
+//     printf("Enter Marks of Sanskrit : ");
+//     scanf("%d",&c);
+//     printf("Percentage is %f",Percentage(a,b,c));
+
+// }
+// float Percentage(int m1,int m2 ,int m3){
+//     int s = m1+m2+m3;
+//     float avg = (s/300)*100;
+//     return avg;
+// }
+
+// 
+
+// Practice Qs 34
+// Write a function to print a fibbonacia sequence of nnumbers 
+// #include<stdio.h>
+// int fibb(int a);
+// int main(){
+//     int f = 5;
+//     fibb(f);
+// }
+// int fibb(int a){
+//     int fib1 = fibb(a-1);
+//     int fib2 = fibb(a-2);
+//     int fibN = fib1+fib2;
+//     printf("%d",fibN);
+//     return fibN;
+// }
+
+
+// Practice Qs 35
+// Write a function to print nth term of fibbonachi sequence
