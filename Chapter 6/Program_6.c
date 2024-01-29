@@ -26,20 +26,20 @@
 
 // Practice Qs 40
 // Write a function to calculate the sum, product & average of 2 numbers. Print that avrage in the main function.
-#include<stdio.h>
-void sPA(int a,int b,int *s,int *p,int *avg);
-int main(){
-    int x=10;
-    int y=30;
-    int s,p,avg;
-    sPA(x,y,&s,&p,&avg);
-    printf("Sum of %d and %d is %d\n",x,y,s);
-    printf("Product of %d and %d is %d\n",x,y,p);
-    printf("Avrage of %d and %d is %d\n",x,y,avg);
-}
-void sPA(int a,int b,int *s,int *p,int *avg){
-    *s = a + b;
-    *p = a * b;
-    *avg = *s/2;
+// #include<stdio.h>
+// void sPA(int a,int b,int *s,int *p,int *avg);
+// int main(){
+//     int x=10;
+//     int y=30;
+//     int s,p,avg;
+//     sPA(x,y,&s,&p,&avg);
+//     printf("Sum of %d and %d is %d\n",x,y,s);
+//     printf("Product of %d and %d is %d\n",x,y,p);
+//     printf("Avrage of %d and %d is %d\n",x,y,avg);
+// }
+// void sPA(int a,int b,int *s,int *p,int *avg){
+//     *s = a + b;
+//     *p = a * b;
+//     *avg = *s/2;
 
-}
+// }
