@@ -19,6 +19,31 @@
 // #include<stdio.h>
 // int main(){
 //     char name[100];
-//     gets(name);
+//     // gets(name);
+//     // puts(name);
+//     fgets(name,100,stdin);
 //     puts(name);
+// }
+
+// String using pointers : 
+// #include<stdio.h>
+// int main(){
+//     char *str = "Hello World!"; //Can be reinitialize
+//     puts(str);
+//     str="Saurabh";
+//     puts(str);
+// }
+
+// Standard Library Functions;
+// #include<stdio.h>
+// #include<string.h>
+// int main(){
+//     char name[] = "Saurabh Chorge";
+//     char myName[100];
+//     char greet[]="Hello ";
+//     printf("Length of string is %d\n",strlen(name));
+//     strcpy(myName,name);
+//     printf("%s\n",myName);
+//     printf("%s\n",strcat(greet,name));
+//     printf("%d\n",strcmp(greet,name));
 // }
