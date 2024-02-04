@@ -1,7 +1,3 @@
-S
-A
-U
-R
-A
-B
-H
+Name : Saurabh Chorge
+Roll No. :45
+CGPA: 9.34
