@@ -22,12 +22,14 @@
 // }
 
 // calloc(): allocates a memory in a continous from, initialize with 0
-#include<stdio.h>
-#include<stdlib.h>
-int main(){
-     float *ptr;
-     ptr = (float *) calloc(5, sizeof(float));
-     for(int i=0;i<5;i++){
-        printf("%.2f\n",ptr[i]);
-     }
-}
+// #include<stdio.h>
+// #include<stdlib.h>
+// int main(){
+//      float *ptr;
+//      ptr = (float *) calloc(5, sizeof(float));
+//      for(int i=0;i<5;i++){
+//         printf("%.2f\n",ptr[i]);
+//      }
+// }
+
+// free(): We use it to free memory that allocated using malloc & calloc
